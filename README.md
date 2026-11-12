@@ -2,6 +2,8 @@
 
 > A workaholic little baker cat, one top-secret mission, and the birthday she forgot - an illustrated children's picture book by Jennifer, produced by BookVizion / DigitalStudioz.
 
+Live preview: [Showcase](https://mydigitalstudioz.github.io/Izzies-Biscuits/) · [Final Pass board](https://mydigitalstudioz.github.io/Izzies-Biscuits/final-pass.html) · [Flipbook template](https://mydigitalstudioz.github.io/Izzies-Biscuits/flipbook.html)
+
 **Branch policy:** work happens on the latest *-vN / project branch. List branches before editing. Never assume the GitHub default is the working line. Working line: main (intake shell - production branches start when the client gives the go). (GitHub default is main).
 
 ## Status
@@ -35,4 +37,4 @@ Izzie Doodle runs a beloved bakery and works so hard she forgets her own birthda
 
 ## Privacy
 
-Private client project. The draft and photo are the author's material - do not copy or share outside this repo.
+Jon set this repo public on 2026-11-11 so the mockup pages can be published and messed with. The draft and photo are still Jennifer's material - no reuse outside this project without her go.
