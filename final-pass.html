@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final Pass — Script Stage — Izzie's Biscuits</title>
+<style>
+  :root{
+    --cream:#faf3e7; --paper:#fffaf0; --ink:#3d2b1f; --soft:#7a5c44;
+    --red:#a52a30; --gold:#c9973f; --line:#e5d5bd;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55}
+  .bar{background:var(--ink);color:var(--cream);text-align:center;padding:.55rem 1rem;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase}
+  .bar b{color:var(--gold)}
+  .bar a{color:var(--cream);text-decoration:none;border-bottom:1px dotted var(--gold)}
+  header{max-width:900px;margin:0 auto;padding:2.5rem 1.25rem .5rem;text-align:center}
+  h1{font-size:clamp(1.9rem,5.5vw,3rem);font-weight:normal;line-height:1.15}
+  h1 em{color:var(--red);font-style:italic}
+  .intro{max-width:760px;margin:1rem auto 0;color:var(--soft);font-size:1.02rem}
+  main{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+  .board{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .frame{aspect-ratio:16/10;background:repeating-linear-gradient(45deg,#fdf6e9,#fdf6e9 16px,#f6ead3 16px,#f6ead3 32px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;border-bottom:1px solid var(--line);padding:1rem;text-align:center}
+  .frame .pg{font-size:2rem;color:var(--gold);letter-spacing:.08em}
+  .frame .sc{color:var(--soft);font-style:italic;font-size:.95rem}
+  .body{padding:.9rem 1rem 1rem}
+  .title{font-size:1rem;margin-bottom:.35rem}
+  .title b{letter-spacing:.04em}
+  .sum{color:var(--soft);font-size:.93rem}
+  .status{display:inline-block;margin-top:.55rem;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--red);border:1px solid var(--line);border-radius:999px;padding:.18rem .6rem;background:#fdf3df}
+  footer{text-align:center;color:var(--soft);font-size:.88rem;padding:0 1.25rem 2.5rem}
+</style>
+</head>
+<body>
+  <div class="bar">BookVizion <b>·</b> <a href="index.html">← Izzie’s Biscuits showcase</a></div>
+
+  <header>
+    <h1>Final Pass — Script Stage — <em>Izzie’s Biscuits</em></h1>
+    <p class="intro">Every page of Jennifer’s draft, carded in order — the same board used for the Final Pass on Harlow’s Accidental Journey. There is no art yet: each card carries the scene exactly as the script describes it, with its status underneath. When production starts, renders land on these cards, one page at a time, and this board becomes the review page.</p>
+  </header>
+
+  <main>
+    <div class="board">
+
+      <div class="card"><div class="frame"><div class="pg">P01</div><div class="sc">Izzie kneading dough in her kitchen — store sign: Izzie’s Biscuits</div></div><div class="body"><div class="title"><b>P01 · SCRIPT</b> — The bakery</div><div class="sum">This is a story about Izzie Doodle, a sweet and friendly cat who owns a bakery, famous for biscuits — and yummy pies.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P02</div><div class="sc">Izzie serving customers</div></div><div class="body"><div class="title"><b>P02 · SCRIPT</b> — Everyone delights</div><div class="sum">Everyone delights in Izzie’s delicious snacks — they come very often, and Izzie adores getting to know everyone that way.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P03</div><div class="sc">Montage: Izzie working all day; asleep in her apron; confused at the calendar</div></div><div class="body"><div class="title"><b>P03 · SCRIPT</b> — The one problem</div><div class="sum">Izzie loves baking — but she works so much she never takes any time off, and sometimes forgets what day it is.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P04</div><div class="sc">Frittee entering the shop</div></div><div class="body"><div class="title"><b>P04 · SCRIPT</b> — A top secret mission</div><div class="sum">Somepurrdy unexpected: Izzie’s sister Frittee, in person, with something very important to ask — food for a big party, tonight.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P05</div><div class="sc">Frittee and Izzie growing up together — kittens</div></div><div class="body"><div class="title"><b>P05 · SCRIPT</b> — For her big sister</div><div class="sum">Izzie loves her sister and always wants to make her proud. A president? A prime minister? Who could the mission be for? She sets off baking.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P06</div><div class="sc">Izzie looking at empty jars and cabinets in the kitchen</div></div><div class="body"><div class="title"><b>P06 · SCRIPT</b> — Out of everything</div><div class="sum">Her snacks were so popular this morning that she’s out of all the ingredients — no sugar, no salt, no flour. She decides to ask everyone for help.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P07</div><div class="sc">Outside Wizzy’s tree, incl. library / mailbox</div></div><div class="body"><div class="title"><b>P07 · SCRIPT</b> — First stop: Wizzy’s</div><div class="sum">Wizzy the owl is always first at the shop — she goes just before her bedtime, and lives in the tree right next to the bakery.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P08</div><div class="sc">Wizzy’s library out back — a leave-a-book / take-a-book</div></div><div class="body"><div class="title"><b>P08 · SCRIPT</b> — Sugar</div><div class="sum">Wizzy is studying a tome. “Hoo are you studying about today?” Sugar — from under the poster of The Whiz, with a wink.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P09</div><div class="sc">Bizzy’s garden</div></div><div class="body"><div class="title"><b>P09 · SCRIPT</b> — Flour, not flowers</div><div class="sum">Bizzy is being very zzzzzippy with her zzzzzinnias. A pouch of flour changes hands — “Here you go, honey! (This is flour, not honey.)”</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P10</div><div class="sc">Dizzy plops down, all 8 legs splayed in all directions on a leaf</div></div><div class="body"><div class="title"><b>P10 · SCRIPT</b> — Baking powder</div><div class="sum">Dizzy has just spun an intricate web and is riding out the vertigo. News of the big project has already spread along the web.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P11</div><div class="sc">Along the way — a path with foliage</div></div><div class="body"><div class="title"><b>P11 · SCRIPT</b> — Eggs</div><div class="sum">Lizzy the thespian, lazing camouflaged on a branch, surprises Izzie as always: “Eggs for you, Izzie!” — delivered with Shakespearean flair.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P12</div><div class="sc">In the thicket</div></div><div class="body"><div class="title"><b>P12 · SCRIPT</b> — Salt</div><div class="sum">Grizzy, who refused to try a biscuit for a month and loves them now, brings the salt — and wishes folks would take her sleep schedule with a grain of it.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P13</div><div class="sc">At the farm</div></div><div class="body"><div class="title"><b>P13 · SCRIPT</b> — Cream</div><div class="sum">Frizzy brings the cream. Izzie once praised the hair she was ashamed of — now she wears it natural, and she’s one of Izzie’s biggest supporters.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P14</div><div class="sc">On the way back</div></div><div class="body"><div class="title"><b>P14 · SCRIPT</b> — Butter &amp; milk</div><div class="sum">Lastly, Tizzy brings both butter and milk — and pauses, blushing, to take a breather. They curl up together for a bite-sized nap.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P15</div><div class="sc">Izzie opens her door</div></div><div class="body"><div class="title"><b>P15 · SCRIPT</b> — Surprise!</div><div class="sum">Back at the bakery with all the ingredients, everyone from the community is waiting in party hats: “Surprise! Happy Birthday!”</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">P16</div><div class="sc">Inside the decorated party room</div></div><div class="body"><div class="title"><b>P16 · SCRIPT</b> — Everyone bakes</div><div class="sum">She was so caught up in work she forgot her own birthday. The gift: everyone helps her bake. Hugs, purrrrring, and a big cross-species cuddle puddle. The End.</div><span class="status">Script</span></div></div>
+
+      <div class="card"><div class="frame"><div class="pg">END</div><div class="sc">End cover</div></div><div class="body"><div class="title"><b>END · SCRIPT</b> — The display case</div><div class="sum">Biscuits, pies, and snacks lined up neatly — in the display case, or on baking sheets on the kitchen counter.</div><span class="status">Script</span></div></div>
+
+    </div>
+  </main>
+
+  <footer>© Jennifer — the story and draft are the author’s. Private production board by BookVizion / DigitalStudioz.</footer>
+</body>
+</html>

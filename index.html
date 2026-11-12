@@ -26,10 +26,19 @@
   section{margin-top:2.75rem}
   h2{font-size:1.6rem;font-weight:normal;border-bottom:2px solid var(--gold);display:inline-block;padding-bottom:.25rem;margin-bottom:1rem}
   p{margin-bottom:.9rem;font-size:1.05rem}
-  .cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.8rem}
-  .card{background:var(--paper);border:1px solid var(--line);border-radius:11px;padding:.9rem 1rem}
-  .card b{display:block;font-size:1.05rem}
-  .card span{color:var(--soft);font-size:.92rem}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.9rem}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:11px;padding:1rem}
+  .card b{display:block;font-size:1.05rem;margin-bottom:.25rem}
+  .card span{color:var(--soft);font-size:.93rem}
+  .placeholder{border:1.5px dashed var(--gold);border-radius:11px;background:repeating-linear-gradient(45deg,#fdf6e9,#fdf6e9 14px,#f7ecd7 14px,#f7ecd7 28px);min-height:130px;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;color:var(--soft);font-style:italic}
+  .biglink{display:block;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.2rem;text-decoration:none;color:var(--ink)}
+  .biglink:hover{border-color:var(--gold)}
+  .biglink b{font-size:1.15rem}
+  .biglink span{display:block;color:var(--soft);font-size:.95rem;margin-top:.25rem}
+  .logo-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:2.2rem 1rem;text-align:center}
+  .logo-card .wordmark{font-size:clamp(2rem,6vw,3.2rem)}
+  .logo-card .wordmark em{color:var(--red);font-style:italic}
+  .logo-card .sub{color:var(--soft);font-style:italic;margin-top:.5rem;font-size:.92rem}
   .status{list-style:none}
   .status li{background:var(--paper);border:1px solid var(--line);border-radius:11px;padding:.8rem 1rem;margin-bottom:.6rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
   .tag{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--red);white-space:nowrap}
@@ -66,8 +75,30 @@
     </section>
 
     <section>
+      <h2>The Pages — Script Stage</h2>
+      <p>Every page of Jennifer’s draft, carded in order on a Final Pass–style board — the same working view used on Harlow’s Accidental Journey. When production starts, each card gets its picture here.</p>
+      <a class="biglink" href="final-pass.html"><b>Every page of the book →</b><span>16 pages + end cover · all at script stage · tap to open the board</span></a>
+    </section>
+
+    <section>
+      <h2>Front &amp; Back Covers</h2>
+      <div class="gallery">
+        <div class="placeholder">Front cover — design starts with production, drawn on Lulu’s real cover geometry from day one</div>
+        <div class="card"><b>End Cover — from the draft</b><span>Biscuits, pies, and snacks lined up neatly — in the display case, or on baking sheets on the kitchen counter. (Jennifer’s own end-cover note.)</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Title Treatment</h2>
+      <div class="logo-card">
+        <div class="wordmark">Izzie’s <em>Biscuits</em></div>
+        <div class="sub">Working treatment — the book’s real logo is designed with the front cover</div>
+      </div>
+    </section>
+
+    <section>
       <h2>Meet the Cast</h2>
-      <div class="cast">
+      <div class="gallery">
         <div class="card"><b>Izzie Doodle</b><span>A petite Siamese / snow-Bengal mix — and the hardest-working baker in town</span></div>
         <div class="card"><b>Frittee Giselle</b><span>Her elegant big sister, an emerald-eyed tabby with a plan</span></div>
         <div class="card"><b>Wizzy Wonder</b><span>A very booksmart owl</span></div>

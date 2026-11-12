@@ -30,6 +30,7 @@ Izzie Doodle runs a beloved bakery and works so hard she forgets her own birthda
 ## Mockup (added 2026-11-11)
 
 - `index.html` - Izzie's Biscuits showcase mockup (story, cast, the real Izzie, production status), modeled on the Harlow showcase/review pages.
+- `final-pass.html` - Final Pass-style board at script stage: all 16 pages + the end cover carded in order with their scenes from Jennifer's draft (the final-pass-v12 pattern). Renders land on these cards when production starts.
 - `flipbook.html` - an UNMODIFIED copy of the Harlow print flipbook viewer (`flipbook-master-print.html` from MyDigitalStudioz/Harlows-Accidental-Journey, 81,209 bytes, sha256 cb69ee6da9933ffdfed58f24a6863626676a1101d286fdf5f380c352c6a5192d), kept as the starting template. Its Harlow page assets are NOT included; it gets re-skinned with Izzie's art when production starts.
 
 ## Privacy
