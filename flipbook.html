@@ -129,7 +129,7 @@
       <div id="strip"></div>
     </div>
   </div>
-  <script src="flipbook-master-print/manifest-20261112b.js"></script>
+  <script src="flipbook-master-print/manifest-20261112c.js"></script>
   <!-- pdf.js 3.11.174 (Apache-2.0), classic scripts. The worker script is loaded on purpose so file:// uses the main-thread fake worker. -->
   <script src="vendor/pdfjs/pdf.min.js"></script>
   <script src="vendor/pdfjs/pdf.worker.min.js"></script>
@@ -1579,7 +1579,7 @@
   // path that waited for pages-data.js; https skipped it and each turn
   // fetched a JPEG, which is the flicker. A missing file still starts.
   var dataScript = document.createElement("script");
-  dataScript.src = "flipbook-master-print/pages-data-20261112b.js";
+  dataScript.src = "flipbook-master-print/pages-data-20261112c.js";
   dataScript.onload = function () { startFlipbook(); };
   dataScript.onerror = function () { startFlipbook(); };
   document.body.appendChild(dataScript);
