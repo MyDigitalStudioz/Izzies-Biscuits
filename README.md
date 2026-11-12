@@ -27,6 +27,11 @@ Izzie Doodle runs a beloved bakery and works so hard she forgets her own birthda
 5. Showcase page + digital flipbook.
 6. Print edition through Lulu.
 
+## Mockup (added 2026-11-11)
+
+- `index.html` - Izzie's Biscuits showcase mockup (story, cast, the real Izzie, production status), modeled on the Harlow showcase/review pages.
+- `flipbook.html` - an UNMODIFIED copy of the Harlow print flipbook viewer (`flipbook-master-print.html` from MyDigitalStudioz/Harlows-Accidental-Journey, 81,209 bytes, sha256 cb69ee6da9933ffdfed58f24a6863626676a1101d286fdf5f380c352c6a5192d), kept as the starting template. Its Harlow page assets are NOT included; it gets re-skinned with Izzie's art when production starts.
+
 ## Privacy
 
 Private client project. The draft and photo are the author's material - do not copy or share outside this repo.
